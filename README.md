@@ -3,7 +3,7 @@
 **Integrantes del grupo:**
 
 - Franco Cirrincione 
--
+- Juan Pablo Sanchez Busso
 -  
 -
 
@@ -167,7 +167,13 @@ suma_en_asm:
     ret
 ```
 
-## 6. Profiling y Resultados de Rendimiento
+## 6. Prueba de Funcionamiento
+
+Observamos la salida del programa que implementa Python, C y Assembler. Se observa el valor retornado por la API, luego vemos el valor procesado, donde se le ha sumado uno. Y por ultimo, de forma ilustrativa, la diferencia de ambos.
+
+![imagen](https://github.com/user-attachments/assets/5a89b46c-82e9-4426-9790-9934a8c0c28e)
+
+## 7. Profiling y Resultados de Rendimiento
 
 Comparativa con `gprof -b`:
 
@@ -180,7 +186,7 @@ Comparativa con `gprof -b`:
 
 
 
-## 7. Conclusiones
+## 8. Conclusiones
 
 - La integración de Python, C y ensamblador evidencia la interoperabilidad de capas.
 - El uso de convenciones de llamada y el stack es esencial para el enlace entre lenguajes.
