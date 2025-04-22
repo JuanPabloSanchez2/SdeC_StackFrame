@@ -169,6 +169,10 @@ suma_en_asm:
 
 ## 6. Prueba de Funcionamiento
 
+Ejecutamos el programa de Python junto con la implementación en C, recordemos que la salida es el indice GINI de Argentina, en primer lugar. En segundo lugar, este valor esta procesado, se le ha sumado uno y se lo convierte en entero.
+
+![imagen](https://github.com/user-attachments/assets/35089552-2c86-47f8-9a3f-510164838302)
+
 Observamos la salida del programa que implementa Python, C y Assembler. Se observa el valor retornado por la API, luego vemos el valor procesado, donde se le ha sumado uno. Y por ultimo, de forma ilustrativa, la diferencia de ambos.
 
 ![imagen](https://github.com/user-attachments/assets/5a89b46c-82e9-4426-9790-9934a8c0c28e)
